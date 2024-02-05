@@ -1,0 +1,30 @@
+              Yas       Bolum  Egitim Seviyes  Yillik Izin Kullanimi  Haftalik Calisilan Saat  Memnuniyet Duzeyi  Performans Notu
+count  300.000000  300.000000      300.000000             300.000000               300.000000         300.000000       300.000000
+mean    40.090000    2.043333        3.050000              14.613333                47.096667           2.857060         0.846667
+std     11.160515    1.388482        1.412143               8.729519                 7.465908           1.520428         0.786480
+min     22.000000    0.000000        1.000000               0.000000                35.000000           0.010323         0.000000
+25%     31.000000    1.000000        2.000000               7.000000                40.000000           1.550119         0.000000
+50%     40.000000    2.000000        3.000000              15.000000                48.000000           2.981649         1.000000
+75%     50.000000    3.000000        4.000000              22.000000                53.000000           4.231246         1.000000
+max     59.000000    4.000000        5.000000              29.000000                59.000000           5.000000         2.000000
+                 Model  Accuracy
+0  Logistic Regression  0.511111
+1        Decision Tree  0.444444
+2                  KNN  0.366667
+
+Employee Data Summary:
+- Total Records: 300
+- Age: Mean = 40.09, Std = 11.16, Min = 22, Max = 59
+- Department: Mean = 2.04, Std = 1.39, Min = 0, Max = 4
+- Education Level: Mean = 3.05, Std = 1.41, Min = 1, Max = 5
+- Annual Leave Usage: Mean = 14.61, Std = 8.73, Min = 0, Max = 29
+- Weekly Working Hours: Mean = 47.10, Std = 7.47, Min = 35, Max = 59
+- Satisfaction Level: Mean = 2.86, Std = 1.52, Min = 0.01, Max = 5
+- Performance Rating: Mean = 0.85, Std = 0.79, Min = 0, Max = 2
+
+Model Performance:
+- Logistic Regression: Accuracy = 51.11%
+- Decision Tree: Accuracy = 44.44%
+- KNN: Accuracy = 36.67%
+
+The Logistic Regression model demonstrated the highest accuracy in predicting employee performance, followed by the Decision Tree and KNN models. These results highlight the variability in model performance based on the features and the algorithm used. Further tuning and validation may be required to enhance model accuracy and reliability.
